@@ -1,0 +1,44 @@
+.header-wrapper {
+  width: 100%;
+  height: 70px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title {
+  color: var(--main-pink);
+  font-size: 48px;
+}
+
+.header-button {
+  cursor: pointer;
+  border: none;
+  background-color: var(--dark-pink);
+  color: var(--white);
+  border-radius: 20px;
+  height: 40px;
+  width: 90px;
+  font-size: 18px;
+  font-family: "Klee One", cursive;
+}
+
+.login-logo {
+  width: 20px;
+  height: 20px;
+}
+
+.info-logo {
+  cursor: pointer;
+  margin-left: 10px;
+  margin-top: 17px;
+  width: 25px;
+  height: 25px;
+}
+
+.hello-text {
+  margin-right: 20px;
+}

@@ -1,0 +1,18 @@
+.themes-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: wrap;
+  min-height: 580px;
+}
+
+.themes-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.themes-title {
+  font-size: 28px;
+}

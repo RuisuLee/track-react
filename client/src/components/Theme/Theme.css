@@ -1,0 +1,25 @@
+.theme-nav {
+  display: flex;
+  align-items: center;
+  color: var(--white);
+  padding: 15px;
+}
+
+.nav-back {
+  cursor: pointer;
+}
+
+.nav-title {
+  flex-grow: 1;
+  font-size: 20px;
+}
+
+.lessons-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.progress-percent-wrapper {
+  display: flex;
+  justify-content: space-between;
+}

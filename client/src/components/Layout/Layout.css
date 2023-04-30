@@ -1,0 +1,47 @@
+* {
+  --white: #f5f5f7;
+  --main-pink: #e4005a;
+  --light-pink: #ff0067;
+  --dark-pink: #c8145a;
+  --main-black: #151515;
+  --light-black: #212121;
+  --grey: #838383;
+}
+
+body {
+  font-family: "Klee One", cursive;
+  background-color: var(--main-black);
+  color: var(--white);
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  border-radius: 8px;
+  background-color: var(--main-black);
+  border: 1px solid var(--main-black);
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: var(--dark-pink);
+}
+
+#root {
+  text-align: center;
+}
+
+.login-text {
+  color: var(--main-pink);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.no-login {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

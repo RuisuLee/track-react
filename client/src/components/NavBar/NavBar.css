@@ -1,0 +1,20 @@
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  border-bottom: 1px solid var(--main-pink);
+}
+
+.nav-item {
+  padding: 10px;
+  font-size: 20px;
+  color: var(--white);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.active,
+.nav-item:hover {
+  background-color: var(--dark-pink);
+}
